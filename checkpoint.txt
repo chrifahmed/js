@@ -1,0 +1,7 @@
+Thank you for rating your experience.
+
+
+algo name : write a paragraph 
+ 
+
+char := ['T',' ','h',' ','a',' ','n',' ','k',' ','y',' ','o',' ','u',' ','.']
