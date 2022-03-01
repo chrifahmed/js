@@ -1,7 +1,29 @@
-Thank you for rating your experience.
+Program algorithme;
+uses wincrt;
+var i,longeurch,wordsnumber,vowelsnumber:integer; ch:string;
+begin
+repeat
+writeln('write a sentence');
 
+readln(ch);
+until ch in ['a'..'z', 'A'..'Z', ' ', '.']
+end;
+longeurch:=0;
+wordsnumber:=0;
+vowelsnumber:=0;
+For i:=1 to length(ch) do
+begin
+longeurch:=longeurch+1;
+if ch[i] in ['a'..'z', 'A'..'Z'] then
+wordsnumber:=wordsnumber+1
+else if (ch[i] in lowercase['A', 'E', 'I' , 'O' , 'U']
+vowelsnumber :=vowelsnumber +1
+end;
 
-algo name : write a paragraph 
- 
+result(ch);
+Procedures result(ch:string);
+begin
+writeln(ch, ' ', 'The length of the sentence =' longeurch,' The number of words =',wordsnumber,' The number of vowels ='vowelsnumber);
+end;
 
-char := ['T',' ','h',' ','a',' ','n',' ','k',' ','y',' ','o',' ','u',' ','.']
+end.
